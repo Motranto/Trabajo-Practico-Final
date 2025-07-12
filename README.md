@@ -23,8 +23,10 @@ Se hace responsive página de gracias.
 
 Se agregan videos en pagina de Risas
 
+-------------------------
 JULIO 2025
 Trabajo práctico "Entrega FINAL"
+-------------------------
 
 Se modifica el formulario del sorteo,  y se incluyen validaciones con JS (sorteo.js)
 - dominio del mail (solo gmail.com, outlook.com, yahoo.com y aol.com)
