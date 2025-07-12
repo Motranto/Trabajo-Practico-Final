@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sorteo{
+    text-decoration: underline;
+    background-color: #000070;
+}
+
+.title-sorteo{
+    color:blue;
+    font-style: italic;
+    font-size:clamp(13px, 2vw, 50px);
+    font-weight: 800;
+}
+
+main {
+    font-family: 'Roboto', 'Cal Sans';
+}
+
+.form-container{
+    color:darkblue;
+    display: flex;
+    flex-direction: row; 
+    gap: 0.3%;
+    flex-wrap: nowrap;
+}
+
+.btn-confirma{
+    font-family: 'Cal Sans';
+    background-color: #000070;
+    color: aliceblue;
+    padding: 0.5vw 5vw;
+    border-radius: 10px;
+}
+
+.btn-confirma:hover {
+    color: #000070;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#btnLimpiar{
+    position: relative;
+    left: 5vw;
+}
+
+.mostrar-borde{
+    border: 1px solid blue ;
+    padding: 2vw;
+}
+
+.radio{
+    margin-left: 25px;
+    margin-right: 5px;
+    accent-color:#000070;
+    width:1.4vw;
+    height:1.4vw;
+}
+
+@media only screen and (max-width:600px) {
+    .radio{
+        margin-left: 12px;
+        margin-right: 3px;
+        width:10px;
+        height:10px;
+    }
+
+    #comentario{
+        width:280px;
+        height:60px;
+    }
+
+    .form-container{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,29 @@
+.inicio{
+    text-decoration: underline;
+    background-color: #000070;
+}
+
+.titulo{
+    text-align: center;
+    color:brown;
+    font-size: clamp(14px, 2vw, 50px);
+}
+
+.img1{
+    width: 25%;
+    border-radius: 50% 0 10% 0 ;
+    float: left;
+    margin: 0 3vw 0 1vw;
+}
+
+.img2{
+    width: 25%;
+    border-radius: 10% 0 50% 0 ;
+    float: right;
+    margin: 0 1vw 1vw 3vw;
+}
+
+li{
+    font-size: clamp(9px, 1.3vw, 32px);
+    font-weight: bold;
+}

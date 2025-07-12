@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat', Verdana, Tahoma, sans-serif
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+    color:white;
+}
+
+header h3 {
+    font-style: italic;
+}
+
+header{
+    border: 10px double #000030;
+    border-radius: 40%;
+    background-image: url("../media/img/salchichas.jpg"); 
+}
+
+.ref{
+    font-size: clamp(8px, 1vw, 32px);
+    text-align: end;
+    color:aliceblue;
+    margin-right: 12vw;
+}
+
+.name {
+    padding: 0 1.5vw 0 0  ;
+}
+
+nav{
+    position: sticky;
+    top: 0;  
+    z-index: 2;
+}
+.nav-container{
+    display:flex;
+    flex-direction: row; 
+    gap: 0.3%;
+    flex-wrap: wrap;
+}
+
+.menu {
+    flex: 1 1 auto;
+    color: aliceblue;
+    background-color: #009030;
+    border-radius: 1.5vw;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: clamp(13px, 1.5vw, 40px);
+    background:linear-gradient(to bottom, #0000C0, #000030)
+}
+
+.menu:hover{
+    text-decoration:underline;
+    background-color: #000050;
+    cursor:pointer;
+    background:linear-gradient(to top, #0000C0, #000030)
+}
+
+main{
+    border: 2px dotted green;
+    padding: 5%;
+    background-image: url("../media/img/Fondo\ estampado.jpg"); 
+    background-size: 50%;
+    width:90%;
+    border-radius: 2%;
+}
+
+.texto{
+    font-size: clamp(9px, 1.2vw, 32px);
+    font-weight: 500;
+}
+
+.texto-G{
+    font-size: clamp(13px, 1.5vw, 40px);
+    font-weight: 500;
+
+}
+
+.indent{
+    text-indent: 2vw;
+}
+
+.black{
+    color:black
+}
+
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000030;
+    color: aliceblue;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10%;
+    background:linear-gradient(135deg, #000060, #0000C0, #000030)
+}
+
+.footer-item {
+    flex-grow: 1;
+    align-content: center;
+}
+
+.footer-texto{
+    font-size: clamp(10px, 1.3vw, 32px);
+    color:aliceblue;
+}
+
+.footer-texto-G{
+    font-size: clamp(14px, 2vw, 50px);
+    color:aliceblue;
+}
+
+#comentario, #nombre{
+    color:black;
+}
+
+.footer-fieldset{
+    margin: 0 3vw 3vw 3vw;
+    font-size: 1.3vw;
+    border-radius: 10px;
+}
+
+.btn-footer{
+    background-color: #000070;
+    color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgba(0,128,255,0.6);
+}
+
+.btn-footer:hover {
+    color: #000070;
+    background-color: aliceblue;
+    cursor: pointer;
+    box-shadow: 0.3vw 0.3vw 0.3vw rgba(255,255,255,0.6);
+}
+
+@media only screen and (max-width:600px) {
+
+    .ref{
+        margin-right: 60px;
+    }
+
+}

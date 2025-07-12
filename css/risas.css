@@ -1,0 +1,31 @@
+.risas{
+    text-decoration: underline;
+    background-color: #000070;
+}
+
+.contenedor-iframe{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.iframe{
+    flex: 1 1 auto;
+    color: aliceblue;
+    background-color: #000030;
+    border-radius: 1.5vw;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+summary:hover{
+    color:#0000C0;
+    cursor:pointer;
+}
+
+video{
+    margin:2%
+}
